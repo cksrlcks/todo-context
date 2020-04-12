@@ -77,9 +77,9 @@ const FormBox = styled.form`
 
 const InputBox = styled.input`
   display: block;
-  height: 3em;
+  height: 4em;
   font-size: 1.2em;
-  padding: 3em 0.5em;
+  padding: 0 0.5em;
   box-sizing: border-box;
   width: 100%;
   border: none;
@@ -87,7 +87,7 @@ const InputBox = styled.input`
     opacity: 0.5;
   }
   @media screen and (max-width: 425px) {
-    padding: 2em 0 2em;
+    padding: 0;
     font-size: 1em;
   }
 `;
