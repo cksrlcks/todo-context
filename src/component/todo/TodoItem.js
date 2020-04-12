@@ -101,9 +101,6 @@ const TodoItemBlock = styled.div`
     justify-content: center;
   }
   .check {
-    display: block;
-    width: 1em;
-    height: 1em;
     margin-right: 1em;
     opacity: 0.5;
     position: relative;
