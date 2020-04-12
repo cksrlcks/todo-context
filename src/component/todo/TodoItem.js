@@ -92,6 +92,7 @@ const TodoItemBlock = styled.div`
     font-size: 1.2em;
     overflow: hidden;
     word-break: break-word;
+    line-height: 1.3em;
   }
   button {
     flex-grow: 0;
