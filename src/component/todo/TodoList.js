@@ -30,6 +30,9 @@ export default TodoList;
 
 const TodoBody = styled.div`
   padding: 0 0.5em;
+  @media screen and (max-width: 425px) {
+    font-size: 0.8em;
+  }
   .info {
     opacity: 0.8;
     margin-bottom: 2em;

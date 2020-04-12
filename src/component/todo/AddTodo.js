@@ -69,6 +69,10 @@ const FormBox = styled.form`
   border-bottom: 1px solid #eee;
   margin-top: 2em;
   margin-bottom: 3em;
+  @media screen and (max-width: 425px) {
+    margin-top: 0;
+    margin-bottom: 2em;
+  }
 `;
 
 const InputBox = styled.input`
@@ -81,6 +85,10 @@ const InputBox = styled.input`
   border: none;
   &::placeholder {
     opacity: 0.5;
+  }
+  @media screen and (max-width: 425px) {
+    padding: 2em 0 2em;
+    font-size: 1em;
   }
 `;
 

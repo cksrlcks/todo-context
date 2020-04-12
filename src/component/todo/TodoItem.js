@@ -91,6 +91,10 @@ const TodoItemBlock = styled.div`
     flex-grow: 1;
     font-size: 1.2em;
     overflow: hidden;
+    margin-top: 0.2em;
+    line-height: 1em;
+    display: flex;
+    align-items: center;
   }
   button {
     flex-grow: 0;

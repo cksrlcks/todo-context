@@ -3,7 +3,7 @@ import styled from "styled-components";
 const Header = () => {
   return (
     <HeaderBlock>
-      Todo Practice{" "}
+      Todo Practice
       <span role="img" aria-label="potato">
         🍟
       </span>
@@ -18,4 +18,9 @@ const HeaderBlock = styled.header`
   font-weight: 900;
   letter-spacing: -0.01em;
   padding-top: 2em;
+  @media screen and (max-width: 425px) {
+    padding-top: 0;
+    font-size: 1.4em;
+    margin-bottom: 1em;
+  }
 `;
