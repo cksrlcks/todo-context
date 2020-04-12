@@ -29,7 +29,7 @@ const FooterBlock = styled.footer`
   display: flex;
   justify-content: center;
   align-items: center;
-  @media screen and (max-width: 425px) {
+  @media screen and (max-width: 1024px) {
     display: none;
   }
   span {
